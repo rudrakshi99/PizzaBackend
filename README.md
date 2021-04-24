@@ -17,6 +17,7 @@ Database is able to store information about Pizza, following are the details :
 
 * It is capable of deleting the exixting pizza from the backend.
 
+* It is capable of filtering the pizza based on choices.
 
 ## Technology Stack to be used:
 
