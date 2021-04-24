@@ -66,6 +66,47 @@ $ python3 manage.py createsuperuser
 ```
 $ python3 manage.py runserver
 ``` 
+
+## Endpoints 
+1. **Get Request:**
+   
+   ``end-point: /pizzas/``
+   
+   Accepted Response : status 200 OK
+   
+   Error Response : status 404 Not Found 
+   
+    ``end-point: /pizzas/id``
+    
+   Accepted Response : status 200 OK
+   
+   Error Response : status 404 Not Found 
+   
+ 2. **Post Request:**
+   
+   ``end-point: /pizzas/``
+   
+   Accepted Response : status 201 Created
+   
+   Error Response : {"error": "Invalid choice"} status 400 Bad Request
+   
+3. **Patch Request:**
+   
+   ``end-point: /pizzas/id``
+   
+   Accepted Response : status 200 OK
+   
+   Error Response : {"error": "Invalid choice"} status 400 Bad Request
+   
+3. **Delete Request:**
+   
+   ``end-point: /pizzas/id``
+   
+   Accepted Response : status 204 No Content 
+   
+   Error Response : status 404 Not Found 
+   
+   
 # License :memo:
 
 This project follows the [MIT License](https://choosealicense.com/licenses/mit/).
