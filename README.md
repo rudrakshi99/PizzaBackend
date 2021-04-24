@@ -82,7 +82,7 @@ $ python3 manage.py runserver
    
    Error Response : status 404 Not Found 
    
- 2. **Post Request:**
+2. **Post Request:**
    
    ``end-point: /pizzas/``
    
