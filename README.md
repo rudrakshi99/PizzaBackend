@@ -99,13 +99,23 @@ $ python3 manage.py runserver
    
    Error Response : {"error": "Invalid choice"} status 400 Bad Request
    
-3. **Delete Request:**
+4. **Delete Request:**
    
    ``end-point: /pizzas/id``
    
    Accepted Response : status 204 No Content 
    
    Error Response : status 404 Not Found 
+
+5. **Filtration:**
+
+   Add the valid choice number at the end of `=` in the end-point.
+   
+   ``end-point: /pizzas/?pizza_type=&pizza_size=&pizza_toppings=`
+   
+   Accepted Response : status 200 OK
+   
+   Error Response : status 400 Bad Request
    
    
 # License :memo:
