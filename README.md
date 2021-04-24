@@ -111,7 +111,7 @@ $ python3 manage.py runserver
 
    Add the valid choice number at the end of `=` in the end-point.
    
-   ``end-point: /pizzas/?pizza_type=&pizza_size=&pizza_toppings=`
+   ``end-point: /pizzas/?pizza_type=&pizza_size=&pizza_toppings=``
    
    Accepted Response : status 200 OK
    
